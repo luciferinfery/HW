@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.album-cover {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+section {
+    margin-bottom: 20px;
+}
