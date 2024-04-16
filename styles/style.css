@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #1d8ffd; /* Dark blue background */
+    color: white;
+    text-align: right;
+    padding: 0;
+    margin: 30px 0;
+    font-size: 22px;
+}
+.content {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+h2 {
+    color: #45a1fd;
+}
+h3{
+    color: #d69c0c;
+}
+.content p {
+    color: #333; /* Dark grey text */
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact-info a {
+    color: #000099; /* Dark blue links */
+}
+.experience-item, .education-item, .skills-item {
+    margin-bottom: 10px;
+}
+.contacts{
+    display: block;
+    text-decoration: none;
+}
+.text-decoration{
+    color: #000076;
+    font-weight: bold;
+}
+.skills-title{
+    background-color: #d2d2d2;
+}
