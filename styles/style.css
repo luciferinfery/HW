@@ -53,6 +53,7 @@
     white-space: nowrap;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .login-icon {
     width: 20px;
