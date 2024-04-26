@@ -1,0 +1,143 @@
+.container {
+     background-color: #fff;
+ }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo {
+    width: 150px;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav__list li a {
+    text-decoration: none;
+}
+
+.navigation {
+    display: block;
+    gap: 50px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 17px;
+    border-radius: 6px;
+    background-color: #46a358;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+}
+.login-icon {
+    width: 20px;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 160px 60px;
+}
+.hero-text-wrapper {
+    max-width: 50%;
+}
+
+.hero-subtitle {
+    margin: 0;
+    color: #3d3d3d;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    margin: 0;
+    color: #3D3D3D;
+    font-style: normal;
+    font: 900 64px/70px Cera Pro, sans-serif;
+    text-transform: uppercase;
+}
+
+span {
+    color: rgba(70, 163, 88, 1);
+}
+
+.hero-description {
+    margin-top: 0;
+    color: #727272;
+    font-family: Cera Pro, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.hero-cta-button {
+    display: inline-block;
+    margin-top: 46px;
+    padding: 15px 26px;
+    border-radius: 6px;
+    background-color: #46a358;
+    color: #fff;
+    font: 700 16px Cera Pro, sans-serif;
+    text-transform: uppercase;
+    border: none;
+}
+
+.hero-image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 50%;
+    min-height: 450px;
+    overflow: hidden;
+}
+
+.hero-background-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 507px;
+    height: 450px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.hero-foreground-image {
+    position: relative;
+    left: -450px;
+    top: 0;
+    z-index: 1;
+    width: 135px;
+    height: 135px;
+    margin-top: 298px;
+    flex-shrink: 0;
+}
