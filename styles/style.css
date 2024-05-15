@@ -1,0 +1,211 @@
+:root {
+     --summer-plant-bg: #fbfbfb;
+     --summer-plant-title: #3d3d3d;
+     --summer-plant-text: #727272;
+     --button-bg: #46a358;
+     --button-hover-bg: #3d8c4f;
+     --button-text: #fff;
+     --blog-title: #3d3d3d;
+     --blog-text: #727272;
+     --blog-date: #46a358;
+     --blog-link: #3d3d3d;
+ }
+a {
+    text-decoration: none;
+}
+.summer-plants {
+    padding: 52px 0;
+}
+
+.summer-plants__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.summer-plants__row {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.summer-plants__column {
+    flex: 0 1 50%;
+    padding: 0 10px;
+}
+
+.item-summer-plant {
+    background-color: var(--summer-plant-bg);
+    padding: 0 30px 10px 0;
+}
+
+.item-summer-plant__row {
+    display: flex;
+}
+
+.item-summer-plant__image {
+    flex: 0 0 50%;
+    margin: -50px 0 0 0;
+}
+
+.item-summer-plant__img {
+    max-width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.item-summer-plant__content {
+    flex: 0 0 50%;
+    padding: 43px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.item-summer-plant__title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: var(--summer-plant-title);
+}
+
+.item-summer-plant__text {
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--summer-plant-text);
+}
+
+.item-summer-plant__button {
+    margin: 27px 0 0 0;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 11px 28px;
+    background-color: var(--button-bg);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--button-text);
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.button__text {
+    margin: 0 4px 0 0;
+}
+
+.button__icon {
+    font-size: 18px;
+}
+
+.blog {
+    padding: 132px 0 0 0;
+}
+
+.blog__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.blog__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--blog-title);
+}
+
+.blog__text {
+    max-width: 500px;
+    margin: 13px auto 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--blog-text);
+}
+
+.blog__items {
+    margin: 35px 0 0 0;
+}
+
+.blog__row {
+    display: flex;
+}
+
+.blog__column {
+    flex: 0 1 25%;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
+
+.blog__item-ibg {
+    padding: 0 0 73.134% 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item-blog {
+    background-color: var(--summer-plant-bg);
+    padding: 12px 15px;
+}
+
+.item-blog__date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blog-date);
+}
+
+.item-blog__title {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--summer-plant-title);
+    margin: 9px 0 0 0;
+}
+
+.item-blog__text {
+    margin: 12px 0 0 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--summer-plant-text);
+}
+
+.item-blog__link {
+    margin: 14px 0 0 0;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blog-link);
+}
+
+.item-blog__link-text {
+    margin: 0 5px 0 0;
+}
+
+.item-blog__link-icon {
+    font-size: 16px;
+}
