@@ -1,3 +1,11 @@
+/* Breakpoints */
+:root {
+    --xxl: 1200px;
+    --xl: 992px;
+    --md: 768px;
+    --sm: 576px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -12,6 +20,10 @@
     gap: 20px;
     justify-content: space-between;
     padding: 25px 51px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-left {
@@ -68,10 +80,12 @@
     height: 45px;
     transition: 0.3s;
 }
-.login-button:hover{
+
+.login-button:hover {
     background-color: #ff6336;
     color: #fff;
 }
+
 .signup-button {
     font-family: Graphik LC TT, sans-serif;
     border-color: rgba(0, 0, 0, 0.5);
@@ -83,7 +97,8 @@
     width: 120px;
     height: 45px;
 }
-.signup-button:hover{
+
+.signup-button:hover {
     background-color: #ff6336;
     color: #fff;
 }
@@ -101,7 +116,6 @@
     position: relative;
     margin: 0 50px;
 }
-
 
 .hero-subtitle {
     color: #000;
@@ -133,10 +147,12 @@
     height: 60px;
     text-decoration: none;
 }
-.demo-button:hover{
+
+.demo-button:hover {
     background-color: #ff6336;
     color: #fff;
 }
+
 .hero-text {
     position: absolute;
     top: 50%;
@@ -146,7 +162,7 @@
     padding-left: 20px;
 }
 
-h1{
+h1 {
     color: #000;
     font-family: Graphik LC TT, sans-serif;
     font-size: 65px;
@@ -155,14 +171,17 @@ h1{
     line-height: 70px;
     max-width: 550px;
 }
-.hero-img{
+
+.hero-img {
     position: relative;
     top: 100%;
     left: 300px;
     height: auto;
     margin-top: 150px;
+    max-width: 100%;
 }
-.try-btn{
+
+.try-btn {
     font-family: Graphik LC TT, sans-serif;
     border-color: rgba(0, 0, 0, 0.5);
     border-style: solid;
@@ -174,10 +193,12 @@ h1{
     height: 60px;
     transition: 0.3s;
 }
-.try-btn:hover{
+
+.try-btn:hover {
     background-color: #ff6336;
     color: #fff;
 }
+
 .companies {
     background-color: #ff9c7d;
     display: flex;
@@ -203,12 +224,16 @@ h1{
     flex: 0 0 auto;
     margin: 0 60px;
 }
-.logos-img{
+
+.logos-img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    max-width: 100%;
+    height: auto;
 }
+
 .features {
     display: flex;
     flex-direction: column;
@@ -222,7 +247,6 @@ h1{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    width: 100%;
 }
 
 .feature-content {
@@ -246,11 +270,11 @@ h1{
     color: #000;
     font-weight: 600;
     margin: auto 0;
+    max-width: 650px;
 }
 
 .feature-title {
     color: #000;
-    font-family: "Graphik LC TT";
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
@@ -270,6 +294,7 @@ h1{
     flex: 0 0 auto;
     max-width: 632px;
     height: auto;
+    width: 100%;
 }
 
 .feature-cta {
@@ -279,4 +304,275 @@ h1{
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.content-description {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Graphik LC TT, sans-serif;
+}
+
+.local-section {
+    background-color: #FFF8E4;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    font-family: 'Graphik LC TT', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.sections-wrapper {
+    margin-top: 84px;
+    width: 100%;
+    padding: 0 1px;
+}
+
+.three-column-section,
+.two-column-section {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.column-content {
+    display: flex;
+    width: 100%;
+    padding: 21px 2px 22px 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.image {
+    aspect-ratio: 1.33;
+    object-fit: cover;
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    margin-top: 33px;
+    font: 600 25px/140% 'Graphik LC TT', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    font-family: Graphik LC TT, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 80px 100px 80px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+/* Media Queries */
+@media (max-width: var(--xxl)) {
+    .header {
+        padding: 20px 40px;
+        gap: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .companies-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .feature-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: var(--xl)) {
+    .header {
+        padding: 15px 30px;
+        gap: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .companies-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .feature-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: var(--md)) {
+    .header {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-left,
+    .header-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .companies-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .feature-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .feature-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: var(--sm)) {
+    .header {
+        padding: 5px 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header-left,
+    .header-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .companies-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .feature-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .feature-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
